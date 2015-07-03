@@ -1,0 +1,79 @@
+/*
+Color Palette :
+	Purple #61274B 
+	Dark Purple #3A122D
+	Cyan #00C7C4
+	Yellow #FFFF00
+	Grey #C4C4C4
+	black : #160F15;
+*/
+.center{
+	margin: 0 auto;
+	display: block;
+	float: none;
+}
+
+#section1{
+  border-image: url('../image/section1/border.png') 50 0 repeat;
+  border-width: 71px 0;
+}
+#title{
+	position: relative;
+}
+#spotLight{
+	z-index: 0;
+}
+#titleHead{
+	z-index: 1;
+	margin-top: -33%;
+}
+#mainTable{
+	width: 880px;
+}
+#mainTable hgroup{
+	display: 
+}
+#section1leftSide{
+	width: 420px;
+}
+#section1middleSide{
+	width: 270px;
+}
+#mobileSection img{
+	margin: 0 10px;
+}
+#musicNotes{
+	visibility: hidden;
+}
+#lampPale{
+	margin-bottom: 15px; 
+}
+#radioPale{
+	margin-right: 20px;
+}
+#radioPale:hover{
+	background-image: url('../image/section1/colored/radio_col.svg');
+}
+#section1rightSide{
+	width: 201px;
+}
+#section2{
+	border-image: url('../image/section2/png/top.png') 256 repeat;
+	border-width: 190px 0 0 0;
+}
+#section3Body{
+	width: 820px;
+}
+#section5Title{
+	  width: 500px;
+}
+#section5Body{
+	  width: 600px;
+}
+
+
+
+
+
+
+
