@@ -568,7 +568,7 @@
 
                 var startingSlide = that.find(SLIDE_ACTIVE_SEL);
 
-                //if the slide won#t be an starting point, the default will be the first one
+                //if the slide won't be an starting point, the default will be the first one
                 if(!startingSlide.length){
                     slides.eq(0).addClass(ACTIVE);
                 }
@@ -740,7 +740,7 @@
             playMedia(section);
 
             $.isFunction( options.afterLoad ) && options.afterLoad.call(section, section.data('anchor'), (section.index(SECTION_SEL) + 1));
-            $.isFunction( options.afterRender ) && options.afterRender.call( this);
+            $.isFunction( options.afterRender ) && options.afterRender.call(container);
         }
 
 
@@ -1342,6 +1342,10 @@
         */
         function lazyLoad(destiny){
             //Lazy loading images, videos and audios
+            var slide = destiny.find(SLIDE_ACTIVE_SEL);
+            if( slide.length ) {
+                destiny = $(slide);
+            }
             destiny.find('img[data-src], video[data-src], audio[data-src]').each(function(){
                 $(this).attr('src', $(this).data('src'));
                 $(this).removeAttr('data-src');
@@ -1634,6 +1638,7 @@
             }
 
             destiny.addClass(ACTIVE).siblings().removeClass(ACTIVE);
+            lazyLoad(destiny);
 
             if(!options.loopHorizontal && options.controlArrows){
                 //hidding it for the fist slide, showing for the rest
