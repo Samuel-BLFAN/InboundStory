@@ -122,11 +122,16 @@ Color Palette :
   border-width: 32px 0;
 }
 #section5Title{
-	  width: 500px;
+	color: #FDFFFF;
+	width: 556px;
+  	margin-bottom: 20px;
+  	margin-top: 20px;
 }
 #section5Body{
 	  width: 740px;
+	  color: #FDFFFF;
 }
+
 #section6Body{
 	width: 795px;
 }
