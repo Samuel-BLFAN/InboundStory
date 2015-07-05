@@ -59,37 +59,63 @@ Color Palette :
 	width: 270px;
 }
 #mobileSection{
+	height: 128px;
+}
+#section1Mobile {
+	height: 128px;
+	width: 95px;
+	margin: 0 10px;
 	background-image: url(../image/section1/mobile-02.svg);
 	background-repeat: no-repeat;
 }
-#mobileSection img{
-	margin: 0 10px;
-	visibility: hidden;
-}
-#mobileSection:hover{
+#section1Mobile:hover{
+	visibility: visible;
 	background-image: url(../image/section1/colored/mobile_col-02.svg);
 	background-repeat: no-repeat;
 }
-#radioPale{
+.colored{
 	visibility: hidden;
 }
-#radioSection{
+#section1lamp:hover .colored{
+	visibility: visible;
+}
+#section1lamp:hover .uncolored{
+	visibility: hidden;
+}
+#radioPale{
 	margin-right: 20px;
+	height: 175px;
+	width: 118px;
 	background-image: url(../image/section1/radio-06.svg);
 	background-repeat: no-repeat;
+	display: inline-table;
 }
-#radioSection:hover{
+#radioPale:hover{
 	background-image: url(../image/section1/colored/radio_col.svg);
 	background-repeat: no-repeat;
 }
 #musicNotes{
-	visibility: hidden;
+  visibility: hidden;
+  margin-top: -175px;
+  margin-right: 59px;
 }
 #lampPale{
 	margin-bottom: 15px; 
 }
 #section1rightSide{
 	width: 201px;
+}
+#tvSection:hover .colored{
+	visibility: visible;
+}
+#tvSection:hover .uncolored{
+	visibility: hidden;
+}
+#magazine:hover .colored{
+	visibility: visible;
+}
+#magazine:hover .uncolored{
+	visibility: hidden;
 }
 #section2{
   border-image: url('../image/section2/border_2.png') 207 0 140 0 repeat;
