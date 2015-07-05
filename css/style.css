@@ -9,6 +9,10 @@ Color Palette :
 	black : #160F15
 	white: #FDFFFF
 */
+
+::-webkit-scrollbar { 
+    display: none; 
+}
 .center{
 	margin: 0 auto;
 	display: block;
