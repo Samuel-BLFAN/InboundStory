@@ -54,8 +54,29 @@ Color Palette :
 #section1middleSide{
 	width: 270px;
 }
+#mobileSection{
+	background-image: url(../image/section1/mobile-02.svg);
+	background-repeat: no-repeat;
+}
 #mobileSection img{
 	margin: 0 10px;
+	visibility: hidden;
+}
+#mobileSection:hover{
+	background-image: url(../image/section1/colored/mobile_col-02.svg);
+	background-repeat: no-repeat;
+}
+#radioPale{
+	visibility: hidden;
+}
+#radioSection{
+	margin-right: 20px;
+	background-image: url(../image/section1/radio-06.svg);
+	background-repeat: no-repeat;
+}
+#radioSection:hover{
+	background-image: url(../image/section1/colored/radio_col.svg);
+	background-repeat: no-repeat;
 }
 #musicNotes{
 	visibility: hidden;
@@ -63,21 +84,15 @@ Color Palette :
 #lampPale{
 	margin-bottom: 15px; 
 }
-#radioPale{
-	margin-right: 20px;
-}
-#radioPale:hover{
-	background-image: url('../image/section1/colored/radio_col.svg');
-}
 #section1rightSide{
 	width: 201px;
 }
 #section2{
-	border-image: url('../image/section2/png/top.png') 214 repeat;
-	border-width: 120px 0 80px 0;
+  border-image: url('../image/section2/border_2.png') 207 0 140 0 repeat;
+  border-width: 100px 0 70px 0;
 }
 #section2Title{
-  width: 390px;
+  width: 400px;
 }
 #section2Title img{
 	width: 70px;
@@ -92,15 +107,15 @@ Color Palette :
 	width: 1060px;
 }
 #section3{
-	border-image: url('../image/section1/border.png') 43 0 repeat;
-  border-width: 25px 0;
+  border-image: url('../image/section3/border_3.png') 57 0 repeat;
+  border-width: 32px 0;
 }
 #section3Body{
 	width: 820px;
 }
 #section5{
-  border-image: url('../image/border_labany.png') 43 0 repeat;
-  border-width: 25px 0;
+  border-image: url('../image/section5/border_5.png') 57 0 repeat;
+  border-width: 32px 0;
 }
 #section5Title{
 	  width: 500px;
@@ -112,8 +127,8 @@ Color Palette :
 	width: 795px;
 }
 #section7{
-  border-image: url('../image/border_labany.png') 43 0 repeat;
-  border-width: 25px 0 0 0;
+  border-image: url('../image/section7/border_7.png') 57 0 repeat;
+  border-width: 32px 0 0 0;
 }
 #section7Body{
 	  width: 800px;
