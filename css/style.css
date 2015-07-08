@@ -134,7 +134,7 @@ Color Palette :
   color: #FFFF00;
 }
 #title2border{
-	
+	transform: scaleX(-1);
 }
 #section2Body{
 	width: 1060px;
@@ -176,13 +176,11 @@ Color Palette :
 }
 #section7Title{
   width: 790px;
-  position: absolute;
-  top: 0;
-  clip: rect(35px,665px,420px,145px);
 }
 #sect7row1{
 	height: 440px;
-	position: relative;
+	position: absolute;
+	top: -20;
 }
 
 
