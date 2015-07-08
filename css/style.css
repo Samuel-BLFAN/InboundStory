@@ -23,14 +23,14 @@ Color Palette :
   height: 100%;
 }
 #section0Title{
-  height: 75%;
-  width: 90%;
+  height: 546px;
+  width: 934px;
   z-index: 1;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -30%;
-  margin-left: -45%;
+  margin-top: -273px;
+  margin-left: -467px;
 }
 #section1{
   border-image: url('../image/section1/border1.png') 43 0 repeat;
@@ -40,6 +40,16 @@ Color Palette :
 #mainTable{
   margin-top: -20px;
   width: 880px;
+}
+#section1Container{
+  height: 607px;
+  width: 880px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -305.5px;
+  margin-left: -440px;
 }
 #section1 hgroup{
 	width: 465px;
@@ -123,18 +133,29 @@ Color Palette :
 #magazine:hover .uncolored{
 	visibility: hidden;
 }
+#section2Container{
+  height: 465px;
+  width: 1053px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -232.5px;
+  margin-left: -526.5px;
+}
 #section2{
   border-image: url('../image/section2/border2.png') 207 0 140 0 repeat;
   border-width: 100px 0 70px 0;
 }
 #section2Title{
-  width: 400px;
+  width: 500px;
 }
 #section2Title img{
-	width: 70px;
+	width: 100px;
 }
 #section2Title h1{
   color: #FDFFFF;
+  font-size: 3.5em;
 }
 #section2Title span{
   color: #FFFF00;
@@ -161,11 +182,21 @@ Color Palette :
 #section2Body{
 	width: 1060px;
 }
+#section3Container{
+  height: 630px;
+  width: 808px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -315px;
+  margin-left: -404px;
+}
 #section3Title{
 	color: #F27751;
 	font-size: 3.5em;
 	margin-bottom: 40px;
-  	margin-top: 20px;
+	font-weight: 800;
 }
 #section3{
   border-image: url('../image/section3/border3.png') 50 0 repeat;
@@ -188,20 +219,54 @@ Color Palette :
 	font-weight: 800;
 	padding-left: 60px;
 }
+#section4Container{
+	height: 694px;
+ 	width: 1224px;
+  	z-index: 1;
+  	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	margin-top: -347px;
+  	margin-left: -612px;
+}
+#section4 h1{
+	font-size: 3.5em;
+	color: #160F15;
+}
+#section4 h1 span{
+	color: #61274B;
+}
+#section4 h4{
+	color: #160F15;
+}
+#section5Container{
+  height: 660px;
+  width: 740px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -330px;
+  margin-left: -370px;
+}
 #section5{
   border-image: url('../image/section5/border5.png') 50 0 repeat;
   border-width: 35px 0;
 }
 #section5Title{
 	color: #FDFFFF;
-	width: 556px;
+	width: 700px;
   	margin-bottom: 20px;
-  	margin-top: 20px;
-  	
+
 }
 #section5Title h2{
 	margin-right: -75px;
   	margin-left: -75px;
+  	font-size: 3.5em;
+  	//font-weight: 800;
+}
+#section5Title h2 span{
+	color: #FFFF00;
 }
 .flipedArrow{
 	-moz-transform: scaleX(-1);
@@ -237,6 +302,16 @@ Color Palette :
 	margin-top: -200px;
 
 }
+#section7Container{
+  height: 585px;
+  width: 741px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -292.5px;
+  margin-left: -370.5px;
+}
 #section7{
   border-image: url('../image/section7/border7.png') 50 0 repeat;
   border-width: 35px 0 0 0;
@@ -249,6 +324,11 @@ Color Palette :
 }
 #section7Title{
   width: 790px;
+}
+#play{
+	position: absolute;
+	top: 250px;
+	left: 600px;
 }
 
 
