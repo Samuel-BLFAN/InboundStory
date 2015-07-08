@@ -111,6 +111,12 @@ Color Palette :
 #tvSection:hover .uncolored{
 	visibility: hidden;
 }
+#newspaper:hover .colored{
+	visibility: visible;
+}
+#newspaper:hover .uncolored{
+	visibility: hidden;
+}
 #magazine:hover .colored{
 	visibility: visible;
 }
@@ -133,11 +139,33 @@ Color Palette :
 #section2Title span{
   color: #FFFF00;
 }
-#title2border{
-	transform: scaleX(-1);
+
+#section2MainTitle{
+	width: 631px;
+	height: 152px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -60.5px;
+	margin-left: -315.5px;
+	
 }
+#section2MainTitle h1{
+  color: #FDFFFF;
+  font-size: 5em;
+}
+#section2MainTitle span{
+  color: #FFFF00;
+}
+
 #section2Body{
 	width: 1060px;
+}
+#section3Title{
+	color: #F27751;
+	font-size: 3.5em;
+	margin-bottom: 40px;
+  	margin-top: 20px;
 }
 #section3{
   border-image: url('../image/section3/border3.png') 50 0 repeat;
@@ -145,6 +173,20 @@ Color Palette :
 }
 #section3Body{
 	width: 820px;
+	font-size: 1.5em;
+	color: #160F15;
+}
+#section3Row2 h2{
+	color: #61274B;
+	font-size: 4.5em;
+	padding-left: 60px;
+}
+#section3Row3{
+	font-weight: 800;
+}
+#section3Row3 p{
+	font-weight: 800;
+	padding-left: 60px;
 }
 #section5{
   border-image: url('../image/section5/border5.png') 50 0 repeat;
@@ -155,14 +197,45 @@ Color Palette :
 	width: 556px;
   	margin-bottom: 20px;
   	margin-top: 20px;
+  	
+}
+#section5Title h2{
+	margin-right: -75px;
+  	margin-left: -75px;
+}
+.flipedArrow{
+	-moz-transform: scaleX(-1);
+     -o-transform: scaleX(-1);
+     -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+     filter: FlipH;
+     -ms-filter: "FlipH";
 }
 #section5Body{
 	  width: 740px;
 	  color: #FDFFFF;
 }
+#section6Container{
+  height: 515px;
+  width: 760px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -276px;
+  margin-left: -380px;
+}
+#section6Title{
+	width: 758px;
+}
+#section6Title img{
+  width: 350px;
 
+}
 #section6Body{
-	width: 795px;
+	width: 758px;
+	margin-top: -200px;
+
 }
 #section7{
   border-image: url('../image/section7/border7.png') 50 0 repeat;
@@ -176,11 +249,6 @@ Color Palette :
 }
 #section7Title{
   width: 790px;
-}
-#sect7row1{
-	height: 440px;
-	position: absolute;
-	top: -20;
 }
 
 
