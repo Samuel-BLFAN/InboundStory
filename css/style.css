@@ -133,9 +133,25 @@ Color Palette :
 #section2Title span{
   color: #FFFF00;
 }
-#title2border{
-	transform: scaleX(-1);
+
+#section2MainTitle{
+	width: 631px;
+	height: 152px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -60.5px;
+	margin-left: -315.5px;
+	
 }
+#section2MainTitle h1{
+  color: #FDFFFF;
+  font-size: 5em;
+}
+#section2MainTitle span{
+  color: #FFFF00;
+}
+
 #section2Body{
 	width: 1060px;
 }
@@ -157,6 +173,14 @@ Color Palette :
 #section3Row2 h2{
 	color: #61274B;
 	font-size: 4.5em;
+	padding-left: 60px;
+}
+#section3Row3{
+	font-weight: 800;
+}
+#section3Row3 p{
+	font-weight: 800;
+	padding-left: 60px;
 }
 
 #section5{
@@ -168,6 +192,19 @@ Color Palette :
 	width: 556px;
   	margin-bottom: 20px;
   	margin-top: 20px;
+  	
+}
+#section5Title h2{
+	margin-right: -75px;
+  	margin-left: -75px;
+}
+.flipedArrow{
+	-moz-transform: scaleX(-1);
+     -o-transform: scaleX(-1);
+     -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+     filter: FlipH;
+     -ms-filter: "FlipH";
 }
 #section5Body{
 	  width: 740px;
