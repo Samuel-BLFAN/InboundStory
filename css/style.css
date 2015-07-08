@@ -33,7 +33,7 @@ Color Palette :
   margin-left: -45%;
 }
 #section1{
-  border-image: url('../image/section1/border.png') 43 0 repeat;
+  border-image: url('../image/section1/border1.png') 43 0 repeat;
   border-width: 25px 0;
 }
 
@@ -118,7 +118,7 @@ Color Palette :
 	visibility: hidden;
 }
 #section2{
-  border-image: url('../image/section2/border_2.png') 207 0 140 0 repeat;
+  border-image: url('../image/section2/border2.png') 207 0 140 0 repeat;
   border-width: 100px 0 70px 0;
 }
 #section2Title{
@@ -133,19 +133,22 @@ Color Palette :
 #section2Title span{
   color: #FFFF00;
 }
+#title2border{
+	
+}
 #section2Body{
 	width: 1060px;
 }
 #section3{
-  border-image: url('../image/section3/border_3.png') 57 0 repeat;
-  border-width: 32px 0;
+  border-image: url('../image/section3/border3.png') 50 0 repeat;
+  border-width: 35px 0;
 }
 #section3Body{
 	width: 820px;
 }
 #section5{
-  border-image: url('../image/section5/border_5.png') 57 0 repeat;
-  border-width: 32px 0;
+  border-image: url('../image/section5/border5.png') 50 0 repeat;
+  border-width: 35px 0;
 }
 #section5Title{
 	color: #FDFFFF;
@@ -162,8 +165,8 @@ Color Palette :
 	width: 795px;
 }
 #section7{
-  border-image: url('../image/section7/border_7.png') 57 0 repeat;
-  border-width: 32px 0 0 0;
+  border-image: url('../image/section7/border7.png') 50 0 repeat;
+  border-width: 35px 0 0 0;
 }
 #section7Body{
 	  width: 800px;
