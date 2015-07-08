@@ -136,13 +136,26 @@ Color Palette :
 #section2Body{
 	width: 1060px;
 }
+#section3Title{
+	color: #F27751;
+	font-size: 3.5em;
+	margin-bottom: 40px;
+  	margin-top: 20px;
+}
 #section3{
   border-image: url('../image/section3/border_3.png') 57 0 repeat;
   border-width: 32px 0;
 }
 #section3Body{
 	width: 820px;
+	font-size: 1.5em;
+	color: #160F15;
 }
+#section3Row2 h2{
+	color: #61274B;
+	font-size: 4.5em;
+}
+
 #section5{
   border-image: url('../image/section5/border_5.png') 57 0 repeat;
   border-width: 32px 0;
