@@ -111,6 +111,12 @@ Color Palette :
 #tvSection:hover .uncolored{
 	visibility: hidden;
 }
+#newspaper:hover .colored{
+	visibility: visible;
+}
+#newspaper:hover .uncolored{
+	visibility: hidden;
+}
 #magazine:hover .colored{
 	visibility: visible;
 }
@@ -182,7 +188,6 @@ Color Palette :
 	font-weight: 800;
 	padding-left: 60px;
 }
-
 #section5{
   border-image: url('../image/section5/border5.png') 50 0 repeat;
   border-width: 35px 0;
@@ -210,9 +215,27 @@ Color Palette :
 	  width: 740px;
 	  color: #FDFFFF;
 }
+#section6Container{
+  height: 515px;
+  width: 760px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -276px;
+  margin-left: -380px;
+}
+#section6Title{
+	width: 758px;
+}
+#section6Title img{
+  width: 350px;
 
+}
 #section6Body{
-	width: 795px;
+	width: 758px;
+	margin-top: -200px;
+
 }
 #section7{
   border-image: url('../image/section7/border7.png') 50 0 repeat;
@@ -226,11 +249,6 @@ Color Palette :
 }
 #section7Title{
   width: 790px;
-}
-#sect7row1{
-	height: 440px;
-	position: absolute;
-	top: -20;
 }
 
 
