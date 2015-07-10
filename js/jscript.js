@@ -31,7 +31,7 @@ $(document).ready(function(){
 	openModalSlide('#light',  '#section3Carousel');
 	openModalSlide('#addValue',  '#section4Carousel');
 	openModalSlide('#magnet',  '#section4Carousel');
-	openModalSlide('#section5Title',  '#section5Carousel');	
+	openModalSlide('#title5Table',  '#section5Carousel');	
 	openModalSlide('#leadership',  '#section5Carousel');	
 	openModalSlide('#sustain',  '#section5Carousel');	
 	openModalSlide('#betterWorld',  '#section5Carousel');	
