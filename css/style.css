@@ -56,11 +56,11 @@ body::-webkit-scrollbar {
 }
 .close{
   font-size: 45px;
-  color: #22D2CA;
+  color: #FFFFFF;
   margin:15px;
   font-weight: 600;
   text-shadow:none;
-  opacity: 0.3;  
+  opacity: 0.7;  
 }
 .close:hover{
   color: #FFFFFF;
@@ -68,7 +68,7 @@ body::-webkit-scrollbar {
   opacity: 1;
 }
 .white{
-	color: #FFFFFF;
+	color: #22D2CA;
 }
 .white:hover{
 	color: #22D2CA;
@@ -106,31 +106,27 @@ background: -ms-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(255,255,255,1)
 background: linear-gradient(to bottom,  rgba(242,242,242,1) 0%,rgba(255,255,255,1) 33%,rgba(242,242,242,1) 64%,rgba(255,255,255,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
 }
-#slider {
-  position: relative;
-  overflow: auto;
+.carousel-control.right, .carousel-control.left{
+  background-image: none;
+  top:100%;
 }
-a.control_prev, a.control_next {
-  position: absolute;
-  top: 70%;
-  z-index: 999;
-  display: block;
-  padding: 4% 10%;
-  width: auto;
-  height: auto;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 38px;
-  opacity: 0.8;
-  cursor: pointer;
+.carousel-control .icon-next:before, .carousel-control .icon-prev:before{
+  font-size: 70px;
 }
-a.control_prev:hover, a.control_next:hover {
+.carousel-indicators{
+  top: 100%;
+  bottom: 0;
+  margin-top: 15px;
+}
+.carousel-indicators .active{
+  background-color:rgba(242, 119, 81, 0.7);
+  border: 1px solid rgba(242, 119, 81, 0.7);
+}
+.carousel-indicators li{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.carousel-indicators li:hover, .carousel-indicators .active:hover{
   opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-a.control_next {
-  right: 0;
 }
 .link{
 	cursor: pointer;
