@@ -10,12 +10,25 @@ Color Palette :
 	white: #FDFFFF
 */
 
-::-webkit-scrollbar { 
+body::-webkit-scrollbar { 
     display: none; 
+}
+.carousel-inner::-webkit-scrollbar { 
+    display: auto; 
 }
 .modal-backdrop{
   background-color: rgba(0, 0, 0, 0.2);
 }
+/*figures{
+  width: 33.33333333%;
+  height: 200px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+ // left: 50%;
+  margin-top: 100px;
+ // margin-left: 100px;
+}*/
 .modal-dialog{
   height: 600px;
   max-height: 90%;
@@ -28,6 +41,18 @@ Color Palette :
   margin-left: -415px;	
   opacity: 0.9;
   margin-bottom: 0px;
+}/*
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  height: 500px;
+  width: 90%;
+}*/
+.carousel-inner{
+    height: 450px;
+   overflow-y: auto;
+   overflow-x: none;
 }
 .close{
   font-size: 45px;
@@ -52,7 +77,9 @@ Color Palette :
 	height: 100%;
 	border: 2px solid rgba(250,250,250,1);
   border-radius: 50px;
+ 
 }
+
 .blueModal{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#19ddd3+0,00c7c4+100 */
 background: rgb(25,221,211); /* Old browsers */
@@ -128,8 +155,13 @@ a.control_next {
   margin-left: -467px;
 }
 #section1{
-  border-image: url('../image/section1/border1.png') 43 0 repeat;
   border-width: 25px 0;
+  -moz-border-image: url('../image/section1/border1.png') 43 0 repeat;
+  -webkit-border-image: url('../image/section1/border1.png') 43 0 repeat;
+  -o-border-image:  url('../image/section1/border1.png') 43 0 repeat;
+  -ms-border-image: url('../image/section1/border1.png') 43 0 repeat;
+  border-image: url('../image/section1/border1.png') 43 0 repeat;
+  
 }
 #mainTable{
   margin-top: -20px;
@@ -305,27 +337,32 @@ a.control_next {
 	font-size: 1.5em;
 	color: #160F15;
 }
-#section3Row2 h2{
+#section3Body h1{
 	color: #61274B;
 	font-size: 4.5em;
 	padding-left: 60px;
 }
-#section3Row3{
-	font-weight: 800;
-}
-#section3Row3 p{
+
+#section3Body h3{
 	font-weight: 800;
 	padding-left: 60px;
+}
+#moneyImg{
+  margin-bottom: 15px;
 }
 #section4Container{
 	height: 694px;
  	width: 1224px;
-  	z-index: 1;
-  	position: absolute;
+  z-index: 1;
+  position: absolute;
  	top: 50%;
-  	left: 50%;
-  	margin-top: -347px;
-  	margin-left: -612px;
+  left: 50%;
+  margin-top: -347px;
+  margin-left: -612px;
+}
+#section4Title{
+  font-size: 3.5em;
+  font-weight: 800;
 }
 #section4 h1{
 	font-size: 3.5em;
@@ -334,9 +371,15 @@ a.control_next {
 #section4 h1 span{
 	color: #61274B;
 }
-#section4 h4{
+#section4Body h4{
+  font-weight: 800;
 	color: #160F15;
 }
+#section4Body b, strong {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
 #section5Container{
   height: 660px;
   width: 740px;
@@ -354,7 +397,7 @@ a.control_next {
 #section5Title{
 	color: #FDFFFF;
 	width: 700px;
-  	margin-bottom: 20px;
+  margin-bottom: 20px;
 
 }
 #section5Title h2{
@@ -403,7 +446,10 @@ a.control_next {
 #section6Body{
 	width: 758px;
 	margin-top: -200px;
-
+}
+#section6Body h2{
+  color: #F27751;
+  font-weight: 800;
 }
 #section7Container{
   height: 585px;
