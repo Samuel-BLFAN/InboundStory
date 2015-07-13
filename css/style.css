@@ -13,6 +13,9 @@ Color Palette :
 body::-webkit-scrollbar { 
     display: none; 
 }
+td{
+  position: relative;
+}
 .carousel-inner::-webkit-scrollbar { 
     display: auto; 
 }
@@ -39,39 +42,31 @@ body::-webkit-scrollbar {
   left: 50%;
   margin-top: -300px;
   margin-left: -415px;	
-  opacity: 0.9;
+  opacity: 0.95;
   margin-bottom: 0px;
-}/*
-.carousel {
-  position: absolute;
-  top: 0;
-  left: 5%;
-  height: 500px;
-  width: 90%;
-}*/
+}
 .carousel-inner{
-    height: 450px;
+    height: 100%;
+    width: 100%;
    overflow-y: auto;
    overflow-x: none;
 }
 .close{
   font-size: 45px;
-  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.6);
   margin:15px;
   font-weight: 600;
-  text-shadow:none;
-  opacity: 0.7;  
+  text-shadow:none; 
 }
 .close:hover{
-  color: #FFFFFF;
+  color:rgba(255, 255, 255, 1);
   text-shadow:none;
-  opacity: 1;
 }
 .white{
-	color: #22D2CA;
+	color: rgba(34, 210, 202, 0.5);
 }
 .white:hover{
-	color: #22D2CA;
+	color: rgba(34, 210, 202, 1);
 }
 .modal-content{
 	height: 100%;
@@ -106,6 +101,26 @@ background: -ms-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(255,255,255,1)
 background: linear-gradient(to bottom,  rgba(242,242,242,1) 0%,rgba(255,255,255,1) 33%,rgba(242,242,242,1) 64%,rgba(255,255,255,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
 }
+.modal-body{
+  height: 85%;
+  width: 100%;
+  position: absolute;
+  float: none;
+  margin: 0 auto;
+}
+.carousel{
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+}
+.valign{
+  position: relative;
+  top: 42%;
+  transform: translateY(-50%);
+}
+.carousel-inner>.item{
+  height: 100%;
+}
 .carousel-control.right, .carousel-control.left{
   background-image: none;
   top:100%;
@@ -125,8 +140,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', end
 .carousel-indicators li{
     background-color: rgba(255, 255, 255, 0.7);
 }
-.carousel-indicators li:hover, .carousel-indicators .active:hover{
-  opacity: 1;
+.carousel-indicators li:hover{
+  background-color: rgba(244, 161, 135, 1);
+}
+.white li {
+  background-color: rgba(34, 210, 202, 0.7);
+}
+..white li:hover{
+  background-color: rgba(244, 161, 135, 1);
+}
+iframe{
+  border: 4px solid #000;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 450px;
+  width: 630px;
+  position: absolute;
+  margin-left: -315px;
+  left: 50%;
+  top: 50%;
+  margin-top: -225px;
 }
 .link{
 	cursor: pointer;
@@ -197,12 +231,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', end
 	height: 128px;
 	width: 95px;
 	margin: 0 10px;
-	background-image: url(../image/section1/mobile-02.svg);
+	background-image: url(../image/section1/colored/mobile_col-02.svg);
 	background-repeat: no-repeat;
 }
 #section1Mobile:hover{
 	visibility: visible;
-	background-image: url(../image/section1/colored/mobile_col-02.svg);
+	background-image: url(../image/section1/mobile-02.svg);
 	background-repeat: no-repeat;
 }
 .colored{
@@ -218,12 +252,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', end
 	margin-right: 20px;
 	height: 175px;
 	width: 118px;
-	background-image: url(../image/section1/radio-06.svg);
+	background-image: url(../image/section1/colored/radio_col.svg);
 	background-repeat: no-repeat;
 	display: inline-table;
 }
 #radioPale:hover{
-	background-image: url(../image/section1/colored/radio_col.svg);
+	background-image: url(../image/section1/radio-06.svg);
 	background-repeat: no-repeat;
 }
 #musicNotes{
@@ -375,7 +409,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', end
   font-size: 1.5em;
   font-weight: 800;
 }
-
+#rightScrews{
+  position: absolute;
+  top: 135px;
+  left: 1px;
+}
 #section5Container{
   height: 660px;
   width: 740px;
