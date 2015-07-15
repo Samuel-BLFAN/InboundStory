@@ -231,12 +231,12 @@ iframe{
 	height: 128px;
 	width: 95px;
 	margin: 0 10px;
-	background-image: url(../image/section1/colored/mobile_col-02.svg);
+	background-image: url(../image/section1/mobile-02.svg);
 	background-repeat: no-repeat;
 }
 #section1Mobile:hover{
 	visibility: visible;
-	background-image: url(../image/section1/mobile-02.svg);
+	background-image: url(../image/section1/colored/mobile_col-02.svg);
 	background-repeat: no-repeat;
 }
 .colored{
@@ -252,12 +252,12 @@ iframe{
 	margin-right: 20px;
 	height: 175px;
 	width: 118px;
-	background-image: url(../image/section1/colored/radio_col.svg);
+	background-image: url(../image/section1/radio-06.svg);
 	background-repeat: no-repeat;
 	display: inline-table;
 }
 #radioPale:hover{
-	background-image: url(../image/section1/radio-06.svg);
+	background-image: url(../image/section1/colored/radio_col.svg);
 	background-repeat: no-repeat;
 }
 #musicNotes{
