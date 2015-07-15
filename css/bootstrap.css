@@ -215,7 +215,7 @@ th {
   pre,
   blockquote {
     border: 1px solid #999;
-
+    quotes: "&#8216;";
     page-break-inside: avoid;
   }
   thead {

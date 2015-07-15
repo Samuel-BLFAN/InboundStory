@@ -342,6 +342,98 @@ iframe{
 #section2Body{
 	width: 1060px;
 }
+#section2plusContainer{
+  height: 250px;
+  width: 820px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -410px;
+}
+#singleCol{
+  position: absolute;
+  top: -5px;
+  left: -40px;
+  color: #00C7C4;
+}
+#outterBorder{
+  
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 300px;
+  /* border-top-right-radius: 300px; */
+  border-bottom-left-radius: 300px;
+  /* border-bottom-right-radius: 300px; */
+  border: 7px solid;
+  //border-bottom-color: #FDFFFF;
+  border-width: 0 0 0 5px;
+ transform: rotate(-45deg);
+ border-color: #00C7C4;
+}
+#middleBorder{
+  
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 300px;
+  /* border-top-right-radius: 300px; */
+  border-bottom-left-radius: 300px;
+  /* border-bottom-right-radius: 300px; */
+  border: 7px solid;
+ // border-bottom-color: #FDFFFF;
+  border-width: 0 0 0 10px;
+  //transform: rotate(200deg);
+  transform: translate(25px,25px) rotate(160deg);
+  border-color: #00C7C4;
+}
+#innerBorder{
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px; 
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px; 
+  border: 7px solid;
+  border-bottom-color: #00C7C4;
+  border-width: 0 3px 0 6px;
+  transform: translate(25px,25px) rotate(190deg);
+  border-color: #FDFFFF;
+
+}
+#section2plusBody{
+  width: 820px;
+  font-size: 4.5em;
+  font-weight: 800;
+}
+#sec2pImg{
+  height: 170px;
+  transform: translate(0,15px) rotate(60deg);
+}
+ 
+#section2plusBody h3{
+  font-weight: 800;
+  font-size: 30px;
+  text-align: left;
+}
+#section2plusBody h3 span{
+  color: #61274B;
+}
+#section2plusBody h3 b{
+  font-weight: 800;
+  font-size: 5em;
+  //color: #00C7C4;
+}
+#section3Container{
+  height: 630px;
+  width: 808px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -315px;
+  margin-left: -404px;
+}
 #section3Container{
   height: 630px;
   width: 808px;
