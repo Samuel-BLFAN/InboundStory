@@ -3179,3 +3179,22 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+/* Chrome, Safari, Opera */
+@-webkit-keyframes spinInLeft {
+    0% {left: -200px; transform: rotate(0deg);opacity: 0;}
+    20%{opacity: 1;}
+    95% {left: 0; transform: rotate(3600deg);opacity: 1;}
+    100%{transform: rotate(3600deg);opacity: 1;}
+}
+
+@keyframes spinInLeft {
+    0% {left: -200px;transform: rotate(0deg);opacity: 0;}
+    20%{opacity: 1;}
+    95% {left: 0; transform: rotate(3600deg);opacity: 1;}
+    100%{transform: rotate(3600deg);opacity: 1;}
+}
+.spinInLeft{
+  -webkit-animation-name: spinInLeft;
+  animation-name: spinInLeft;
+  opacity: 1;
+}

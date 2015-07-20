@@ -13,6 +13,14 @@ Color Palette :
 body::-webkit-scrollbar { 
     display: none; 
 }
+#steveImage{
+  border: 2px solid;
+  border-width: 9px 0;
+  border-top-color: rgb(34, 70, 210);
+  border-bottom-color: #F27751;
+  border-radius: 91px;
+  transform: rotate(20deg);
+}
 td{
   position: relative;
 }
@@ -22,16 +30,6 @@ td{
 .modal-backdrop{
   background-color: rgba(0, 0, 0, 0.2);
 }
-/*figures{
-  width: 33.33333333%;
-  height: 200px;
-  z-index: 1;
-  position: absolute;
-  top: 50%;
- // left: 50%;
-  margin-top: 100px;
- // margin-left: 100px;
-}*/
 .modal-dialog{
   height: 600px;
   max-height: 90%;
@@ -465,11 +463,47 @@ iframe{
   margin-top: -276px;
   margin-left: -380px;
 }
+.flipH {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph;
+}
+.flipV {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    -ms-filter: flipv; /*IE*/
+    filter: flipv;
+}
+#convert img{
+  margin-left: 25%;
+}
+#delight img{
+  margin-left: 24%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#attract img{
+  margin-right: 25%;
+  -webkit-transform: rotate(180deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+  -ms-transform: rotate(180deg);  /* IE 9 */
+  transform: rotate(180deg);  /* Firefox 16+, IE 10+, Opera */
+}
+#close img{
+  margin-right: 25%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
 #toaster{
 	z-index: 
 }
 #section6Title{
-	width: 758px;
+	width: 770px;
+  margin-left: -5%
 }
 #section6Title img{
   width: 350px;
@@ -481,9 +515,27 @@ iframe{
 	width: 758px;
 	margin-top: -200px;
 }
+#section6Body svg.le{
+  margin-left: -20%;
+  position: relative;
+  opacity: 0;
+}
+#section6Body svg.ri{
+  margin-left: 20%;
+}
 #section6Body h2{
   color: #F27751;
   font-weight: 800;
+}
+svg.fork{
+  position: absolute;
+  left: -20%;
+}
+#section6Body h2.le{
+  margin-left: -10%;
+}
+#section6Body h2.ri{
+  margin-left: 25%;
 }
 #section7Container{
   height: 585px;
@@ -513,5 +565,6 @@ iframe{
 	top: 250px;
 	left: 600px;
 }
+#attractImg{
 
-
+}
