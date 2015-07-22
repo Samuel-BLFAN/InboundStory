@@ -248,11 +248,14 @@ iframe{
 #section1lamp:hover .uncolored{
 	visibility: visible;
 }
+<<<<<<< HEAD
+=======
 #section1lamp .uncolored, #section1lamp .colored{
   position: absolute;
   top: 115px;
   left: 0px;
 }
+>>>>>>> master
 #section1lamp:hover .colored{
 	visibility: hidden;
 }
@@ -286,6 +289,23 @@ iframe{
 #section1rightSide{
 	width: 201px;
 }
+<<<<<<< HEAD
+#tvSection:hover .uncolored{
+	visibility: visible;
+}
+#tvSection:hover .colored{
+	visibility: hidden;
+}
+#newspaper:hover .uncolored{
+	visibility: visible;
+}
+#newspaper:hover .colored{
+	visibility: hidden;
+}
+#magazine:hover .uncolored{
+	visibility: visible;
+}
+=======
 #tvSection .uncolored{
   position: absolute;
   top: 4px;
@@ -323,6 +343,7 @@ iframe{
 #magazine:hover .uncolored{
 	visibility: visible;
 }
+>>>>>>> master
 #magazine:hover .colored{
 	visibility: hidden;
 }
