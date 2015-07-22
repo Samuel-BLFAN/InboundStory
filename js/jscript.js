@@ -1,10 +1,11 @@
+
 $(document).ready(function(){
-	$('#radioPale').hover(function(){
-		$('#musicNotes').css("visibility","visible");
-	});
-	$('#radioPale').mouseleave(function(){
-		$('#musicNotes').css("visibility","hidden");
-	});
+	$('#radioPale').hover(function(){$('#musicNotes').css("visibility","visible");}, 
+		function(){$('#musicNotes').css("visibility","hidden");});
+	$('#section6Body svg.le').one('webkitAnimationEnd oanimationend msAnimationEnd animationend',   
+    function(e) {
+    	$('#section6Body svg.le').css({'opacity':'1'});
+     });
 	var modalWidth = $('.modal-dialog').width();
 	var modalHeight = $('.modal-dialog').height() - $('.modal-header').outerHeight(true);
 
@@ -15,7 +16,7 @@ $(document).ready(function(){
 			$(target).carousel('pause');
 		});
 	}
-	openModalSlide('#newspaper',  '#section1Carousel');
+	openModalSlide('.newspaper',  '#section1Carousel');
 	openModalSlide('#section1Title',  '#section1Carousel');
 	openModalSlide('#section1Mobile',  '#section1Carousel');
 	openModalSlide('#radioPale',  '#section1Carousel');
