@@ -41,10 +41,12 @@ $(document).ready(function(){
 	openModalSlide('#attract',  '#section6Carousel');
 	openModalSlide('#close',  '#section6Carousel');
 	openModalSlide('#convert',  '#section6Carousel');
-	openModalSlide('#play',  '#section7Carousel');
 	openModalSlide('#ad0',  '#section7Carousel');
 	openModalSlide('#ad1',  '#section7Carousel');
 	openModalSlide('#ad2',  '#section7Carousel');	
+	openModalSlide('#ad3',  '#section7Carousel');
+	openModalSlide('#ad4',  '#section7Carousel');	
+	openModalSlide('#play',  '#section7Carousel');
 
 });						   
 $(window).resize(function(){
