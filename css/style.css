@@ -638,6 +638,19 @@ iframe{
 	width: 758px;
 	margin-top: -200px;
 }
+<<<<<<< HEAD
+=======
+#section6Body div.le{
+  margin-left: -20%;
+  position: relative;
+  width: 100%;
+}
+#section6Body div.ri{
+  margin-left: 20%;
+  position: relative;
+  width: 100%;
+}
+>>>>>>> master
 #section6Body h2{
   color: #F27751;
   font-weight: 800;
