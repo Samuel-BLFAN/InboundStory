@@ -13,14 +13,6 @@ Color Palette :
 body::-webkit-scrollbar { 
     display: none; 
 }
-#steveImage{
-  border: 2px solid;
-  border-width: 9px 0;
-  border-top-color: rgb(34, 70, 210);
-  border-bottom-color: #F27751;
-  border-radius: 91px;
-  transform: rotate(20deg);
-}
 td{
   position: relative;
 }
@@ -30,6 +22,16 @@ td{
 .modal-backdrop{
   background-color: rgba(0, 0, 0, 0.2);
 }
+/*figures{
+  width: 33.33333333%;
+  height: 200px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+ // left: 50%;
+  margin-top: 100px;
+ // margin-left: 100px;
+}*/
 .modal-dialog{
   height: 600px;
   max-height: 90%;
@@ -189,11 +191,6 @@ iframe{
   -o-border-image:  url('../image/section1/border1.png') 43 0 repeat;
   -ms-border-image: url('../image/section1/border1.png') 43 0 repeat;
   border-image: url('../image/section1/border1.png') 43 0 repeat;
-  background: url('../image/section1/lines-07.svg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   
 }
 #mainTable{
@@ -234,12 +231,12 @@ iframe{
 	height: 128px;
 	width: 95px;
 	margin: 0 10px;
-	background-image: url(../image/section1/colored/mobile_col.svg);
+	background-image: url(../image/section1/colored/mobile_col-02.svg);
 	background-repeat: no-repeat;
 }
 #section1Mobile:hover{
 	visibility: visible;
-	background-image: url(../image/section1/mobile.svg);
+	background-image: url(../image/section1/mobile-02.svg);
 	background-repeat: no-repeat;
 }
 .uncolored{
@@ -248,19 +245,8 @@ iframe{
 #section1lamp:hover .uncolored{
 	visibility: visible;
 }
-<<<<<<< HEAD
-=======
-#section1lamp .uncolored, #section1lamp .colored{
-  position: absolute;
-  top: 115px;
-  left: 0px;
-}
->>>>>>> master
 #section1lamp:hover .colored{
 	visibility: hidden;
-}
-#section1lamp{
-  width: 132px;
 }
 #radioPale{
 	margin-right: 20px;
@@ -271,7 +257,7 @@ iframe{
 	display: inline-table;
 }
 #radioPale:hover{
-	background-image: url(../image/section1/radio.svg);
+	background-image: url(../image/section1/radio-06.svg);
 	background-repeat: no-repeat;
 }
 #musicNotes{
@@ -289,7 +275,6 @@ iframe{
 #section1rightSide{
 	width: 201px;
 }
-<<<<<<< HEAD
 #tvSection:hover .uncolored{
 	visibility: visible;
 }
@@ -305,45 +290,6 @@ iframe{
 #magazine:hover .uncolored{
 	visibility: visible;
 }
-=======
-#tvSection .uncolored{
-  position: absolute;
-  top: 4px;
-  left: 1px;
-}
-#tvSection:hover .uncolored{
-  visibility: visible;
-}
-#tvSection:hover .colored{
-	visibility: hidden;
-}
-.newspaper{
-  position: absolute;
-  top: -1px;
-  left: 85px;
-}
-.newspaper:hover .uncolored{
-	visibility: visible;
-}
-.newspaper:hover .colored{
-	visibility: hidden;
-}
-#magazine svg{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-#magazine{
-  position: absolute;
-  bottom: 65px;
-  left: 58px;
-  height: 100px;
-  width: 100px;
-}
-#magazine:hover .uncolored{
-	visibility: visible;
-}
->>>>>>> master
 #magazine:hover .colored{
 	visibility: hidden;
 }
@@ -555,56 +501,10 @@ iframe{
   font-size: 1.5em;
   font-weight: 800;
 }
-#section4Body td div {
-    margin-bottom: -6px;
-}
-#machineBase {
-    position: absolute;
-    bottom: 50px;
-}
-.screw{
+#rightScrews{
   position: absolute;
-  height: 20px;  
-}
-#screw3 {
-  top: 80px;
-  left: 55px;
-}
-#screw2 {
-  top: 13px;
-  left: 95px;
-}
-#screw1 {
-  top: 37px;
-  left: 210px;
-}
-#screw6 {
-  top: 34px;
-  left: 20px;
-}
-#screw5 {
-  top: 10px;
-  left: 160px;
-}
-#screw4 {
-  top: 87px;
-  left: 195px;
-}
-#rings {
-  position: absolute;
-  top: 63px;
-  left: 168px;
-}
-.background{
-  float: left;
-}
-div#rightarmthings {
-  position: absolute;
-  top: 161px;
-}
-#leftarmthings{
-  position: absolute;
-  top: 146px;
+  top: 135px;
+  left: 1px;
 }
 #section5Container{
   height: 660px;
@@ -698,47 +598,11 @@ div#rightarmthings {
   margin-top: -276px;
   margin-left: -380px;
 }
-.flipH {
-    -moz-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    transform: scaleX(-1);
-    -ms-filter: fliph; /*IE*/
-    filter: fliph;
-}
-.flipV {
-    -moz-transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-    -o-transform: scaleY(-1);
-    transform: scaleY(-1);
-    -ms-filter: flipv; /*IE*/
-    filter: flipv;
-}
-#convert img{
-  margin-left: 25%;
-}
-#delight img{
-  margin-left: 24%;
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
-#attract img{
-  margin-right: 25%;
-  -webkit-transform: rotate(180deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-  -ms-transform: rotate(180deg);  /* IE 9 */
-  transform: rotate(180deg);  /* Firefox 16+, IE 10+, Opera */
-}
-#close img{
-  margin-right: 25%;
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
 #toaster{
 	z-index: 
 }
 #section6Title{
-	width: 770px;
-  margin-left: -5%
+	width: 758px;
 }
 #section6Title img{
   width: 350px;
@@ -750,34 +614,9 @@ div#rightarmthings {
 	width: 758px;
 	margin-top: -200px;
 }
-#section6Body div.le{
-  margin-left: -20%;
-  position: relative;
-  width: 100%;
-}
-#section6Body div.ri{
-  margin-left: 20%;
-  position: relative;
-  width: 100%;
-}
 #section6Body h2{
   color: #F27751;
   font-weight: 800;
-}
-div.fork .le{
-  position: absolute;
-  top: 0;
-}
-div.fork .ri{
-  position: absolute;
-  top: 0;
-  left: 20%;
-}
-#section6Body h2.le{
-  margin-left: -10%;
-}
-#section6Body h2.ri{
-  margin-left: 25%;
 }
 #section7Container{
   height: 585px;
@@ -807,6 +646,5 @@ div.fork .ri{
 	top: 250px;
 	left: 600px;
 }
-#attractImg{
 
-}
+
