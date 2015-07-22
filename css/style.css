@@ -731,24 +731,31 @@ div#rightarmthings {
 }
 #section6Body div.le{
   margin-left: -20%;
-  position: relative;
+  position: absolute;
+  width: 100%;
 }
 #section6Body div.ri{
   margin-left: 20%;
-  position: relative;
+  position: absolute;
+  width: 100%;
 }
 #section6Body h2{
   color: #F27751;
   font-weight: 800;
 }
-div.fork .le{
-  position: absolute;
-  top: 0;
+#section6Body div.fork{
+  position: relative;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3;
+  animation-delay: 2.7s;
 }
-div.fork .ri{
-  position: absolute;
-  top: 0;
-  left: 20%;
+#section6Body div.fork.up{
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+#section6Body div.fork.down{
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
 }
 #section6Body h2.le{
   margin-left: -10%;
