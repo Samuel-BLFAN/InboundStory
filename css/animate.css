@@ -100,21 +100,21 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes flash {
-  0%, 50%, 100% {
+  1%,  50%, 100% {
     opacity: 1;
   }
 
-  25%, 75% {
+  0%, 25%, 75% {
     opacity: 0;
   }
 }
 
 @keyframes flash {
-  0%, 50%, 100% {
+  1%,  50%, 100% {
     opacity: 1;
   }
 
-  25%, 75% {
+  0%, 25%, 75% {
     opacity: 0;
   }
 }
@@ -2017,7 +2017,7 @@ Copyright (c) 2015 Daniel Eden
     transform: rotate3d(0, 0, 1, -200deg);
     opacity: 0;
   }
-  25% {opacity: 1;} /* edited By Samuel*/
+
   100% {
     -webkit-transform-origin: center;
     transform-origin: center;
@@ -2031,11 +2031,11 @@ Copyright (c) 2015 Daniel Eden
   0% {
     -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, -200deg); 
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
     transform: rotate3d(0, 0, 1, -200deg);
     opacity: 0;
   }
-  25% {opacity: 1;}/* edited By Samuel*/
+
   100% {
     -webkit-transform-origin: center;
     transform-origin: center;
@@ -2049,6 +2049,7 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
 }
+
 
 @-webkit-keyframes rotateInDownLeft {
   0% {
@@ -3178,80 +3179,4 @@ Copyright (c) 2015 Daniel Eden
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
-}
-
-/* Added By Samuel*/
-@-webkit-keyframes spinInLeft {
-    0% {left: -200px; transform: rotate(0deg);opacity: 0;}
-    20%{opacity: 1;}
-    95% {left: 0; transform: rotate(3600deg);opacity: 2;}
-    100%{transform: rotate(3600deg);opacity: 2;}
-}
-
-@keyframes spinInLeft {
-    0% {left: -200px;transform: rotate(0deg);opacity: 0;}
-    20%{opacity: 1;}
-    95% {left: 0; transform: rotate(3600deg);opacity: 2;}
-    100%{transform: rotate(3600deg);opacity: 2;}
-}
-.spinInLeft{
-  -webkit-animation-name: spinInLeft;
-  animation-name: spinInLeft;
-}
-@-webkit-keyframes spinInRight {
-    0% {left: 200px; transform: rotate(3600deg);opacity: 0;}
-    20%{opacity: 1;}
-    95% {left: 0; transform: rotate(0deg);opacity: 2;}
-    100%{transform: rotate(0deg);opacity: 2;}
-}
-
-@keyframes spinInRight {
-    0% {left: 200px;transform: rotate(3600deg);opacity: 0;}
-    20%{opacity: 1;}
-    95% {left: 0; transform: rotate(0deg);opacity: 2;}
-    100%{transform: rotate(0deg);opacity: 2;}
-}
-.spinInRight{
-  -webkit-animation-name: spinInRight;
-  animation-name: spinInRight;
-}
-@-webkit-keyframes spinIn {
-  0% {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, -3600deg);/* edited By Samuel*/
-    transform: rotate3d(0, 0, 1, -3600deg);/* edited By Samuel*/
-    opacity: 0;
-  }
-  25% {opacity: 1;} /* edited By Samuel*/
-  100% {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: none;
-    transform: none;
-    opacity: 1;
-  }
-}
-
-@keyframes spinIn {
-  0% {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, -3600deg); /* edited By Samuel*/
-    transform: rotate3d(0, 0, 1, -3600deg);/* edited By Samuel*/
-    opacity: 0;
-  }
-  25% {opacity: 1;}/* edited By Samuel*/
-  100% {
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transform: none;
-    transform: none;
-    opacity: 1;
-  }
-}
-
-.spinIn {
-  -webkit-animation-name: spinIn;
-  animation-name: spinIn;
 }
