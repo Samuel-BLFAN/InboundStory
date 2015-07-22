@@ -100,21 +100,21 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes flash {
-  0%, 50%, 100% {
+  1%,  50%, 100% {
     opacity: 1;
   }
 
-  25%, 75% {
+  0%, 25%, 75% {
     opacity: 0;
   }
 }
 
 @keyframes flash {
-  0%, 50%, 100% {
+  1%,  50%, 100% {
     opacity: 1;
   }
 
-  25%, 75% {
+  0%, 25%, 75% {
     opacity: 0;
   }
 }
@@ -2049,6 +2049,7 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
 }
+
 
 @-webkit-keyframes rotateInDownLeft {
   0% {
