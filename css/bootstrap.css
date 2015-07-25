@@ -215,10 +215,6 @@ th {
   pre,
   blockquote {
     border: 1px solid #999;
-<<<<<<< HEAD
-=======
-    quotes: "&#8216;";
->>>>>>> mina
     page-break-inside: avoid;
   }
   thead {

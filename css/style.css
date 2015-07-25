@@ -248,19 +248,16 @@ iframe{
 .uncolored{
 	visibility: hidden;
 }
-#section1lamp:hover .uncolored{
-	visibility: visible;
-}
-<<<<<<< HEAD
 #section1lamp .uncolored, #section1lamp .colored{
   position: absolute;
   top: 115px;
   left: 0px;
 }
-=======
->>>>>>> mina
 #section1lamp:hover .colored{
 	visibility: hidden;
+}
+#section1lamp:hover .uncolored{
+  visibility: visible;
 }
 #radioPale{
 	margin-right: 20px;
@@ -289,7 +286,6 @@ iframe{
 #section1rightSide{
 	width: 201px;
 }
-<<<<<<< HEAD
 #tvSection .uncolored{
   position: absolute;
   top: 4px;
@@ -297,15 +293,10 @@ iframe{
 }
 #tvSection:hover .uncolored{
   visibility: visible;
-=======
-#tvSection:hover .uncolored{
-	visibility: visible;
->>>>>>> mina
 }
 #tvSection:hover .colored{
 	visibility: hidden;
 }
-<<<<<<< HEAD
 .newspaper{
   position: absolute;
   top: -1px;
@@ -329,14 +320,6 @@ iframe{
   height: 100px;
   width: 100px;
 }
-=======
-#newspaper:hover .uncolored{
-	visibility: visible;
-}
-#newspaper:hover .colored{
-	visibility: hidden;
-}
->>>>>>> mina
 #magazine:hover .uncolored{
 	visibility: visible;
 }
@@ -409,7 +392,7 @@ iframe{
 }
 #singleCol{
   position: absolute;
-  top: 5px;
+  top: 20px;
   left: -45px;
   color: #00C7C4;
 }
@@ -541,11 +524,11 @@ iframe{
   margin-bottom: 15px;
 }
 #section4Container{
-	height: 694px;
- 	width: 1224px;
+  height: 694px;
+  width: 1224px;
   z-index: 1;
   position: absolute;
- 	top: 50%;
+  top: 50%;
   left: 50%;
   margin-top: -347px;
   margin-left: -612px;
@@ -555,24 +538,70 @@ iframe{
   font-weight: 800;
 }
 #section4 h1{
-	font-size: 3.5em;
-	color: #160F15;
+  font-size: 3.5em;
+  color: #160F15;
 }
 #section4 h1 span{
-	color: #61274B;
+  color: #61274B;
 }
 #section4Body h4{
   font-weight: 800;
-	color: #160F15;
+  color: #160F15;
 }
 #section4Body b, strong {
   font-size: 1.5em;
   font-weight: 800;
 }
-#rightScrews{
+#section4Body td div {
+    margin-bottom: -6px;
+}
+#machineBase {
+    position: absolute;
+    bottom: 50px;
+}
+.screw{
   position: absolute;
-  top: 135px;
-  left: 1px;
+  height: 20px;  
+}
+#screw3 {
+  top: 80px;
+  left: 55px;
+}
+#screw2 {
+  top: 13px;
+  left: 95px;
+}
+#screw1 {
+  top: 37px;
+  left: 210px;
+}
+#screw6 {
+  top: 34px;
+  left: 20px;
+}
+#screw5 {
+  top: 10px;
+  left: 160px;
+}
+#screw4 {
+  top: 87px;
+  left: 195px;
+}
+#rings {
+  position: absolute;
+  top: 63px;
+  left: 168px;
+}
+.background{
+  float: left;
+}
+div#rightarmthings {
+  position: absolute;
+  top: 161px;
+}
+#leftarmthings{
+  position: absolute;
+  top: 146px;
 }
 #section5Container{
   height: 660px;
@@ -682,7 +711,6 @@ iframe{
 	width: 758px;
 	margin-top: -200px;
 }
-<<<<<<< HEAD
 #section6Body div.le{
   margin-left: -20%;
   position: absolute;
@@ -693,15 +721,12 @@ iframe{
   position: absolute;
   width: 100%;
 }
-=======
->>>>>>> mina
 #section6Body h2{
   color: #F27751;
   font-weight: 800;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
-<<<<<<< HEAD
 #section6Body div.fork{
   position: relative;
   -webkit-animation-duration: 1.5s;
@@ -727,8 +752,6 @@ img.lines{
 #section6Body h2.ri{
   margin-left: 25%;
 }
-=======
->>>>>>> mina
 #section7Container{
   height: 585px;
   width: 741px;
@@ -803,7 +826,6 @@ img.lines{
   border-image: url('../image/section5/border5.png') 50 0 repeat;
   border-width: 35px 0 0 0;
 }
-
 #section9Container {
   height: 425px;
   width: 900px;
