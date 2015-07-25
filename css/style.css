@@ -742,20 +742,27 @@ div#rightarmthings {
 #section6Body h2{
   color: #F27751;
   font-weight: 800;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
 }
 #section6Body div.fork{
   position: relative;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3;
-  animation-delay: 2.7s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }
 #section6Body div.fork.up{
-  -webkit-animation-name: fadeInDownBig;
-  animation-name: fadeInDownBig;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
 #section6Body div.fork.down{
-  -webkit-animation-name: fadeInUpBig;
-  animation-name: fadeInUpBig;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+img.lines{
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 #section6Body h2.le{
   margin-left: -10%;
