@@ -237,12 +237,12 @@ iframe{
 	height: 128px;
 	width: 95px;
 	margin: 0 10px;
-  background-image: url(../image/section1/colored/mobile_col.svg);
+	background-image: url(../image/section1/colored/mobile_col-02.svg);
 	background-repeat: no-repeat;
 }
 #section1Mobile:hover{
 	visibility: visible;
-	background-image: url(../image/section1/mobile.svg);
+	background-image: url(../image/section1/mobile-02.svg);
 	background-repeat: no-repeat;
 }
 .uncolored{
@@ -268,7 +268,7 @@ iframe{
 	display: inline-table;
 }
 #radioPale:hover{
-	background-image: url(../image/section1/radio.svg);
+	background-image: url(../image/section1/radio-06.svg);
 	background-repeat: no-repeat;
 }
 #musicNotes{
@@ -695,47 +695,11 @@ div#rightarmthings {
   margin-top: -276px;
   margin-left: -380px;
 }
-.flipH {
-    -moz-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    transform: scaleX(-1);
-    -ms-filter: fliph; /*IE*/
-    filter: fliph;
-}
-.flipV {
-    -moz-transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-    -o-transform: scaleY(-1);
-    transform: scaleY(-1);
-    -ms-filter: flipv; /*IE*/
-    filter: flipv;
-}
-#convert img{
-  margin-left: 25%;
-}
-#delight img{
-  margin-left: 24%;
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
-#attract img{
-  margin-right: 25%;
-  -webkit-transform: rotate(180deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-  -ms-transform: rotate(180deg);  /* IE 9 */
-  transform: rotate(180deg);  /* Firefox 16+, IE 10+, Opera */
-}
-#close img{
-  margin-right: 25%;
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
 #toaster{
-  z-index: 
+	z-index: 
 }
 #section6Title{
-  width: 770px;
-  margin-left: -5%
+	width: 758px;
 }
 #section6Title img{
   width: 350px;
@@ -744,8 +708,8 @@ div#rightarmthings {
 
 }
 #section6Body{
-  width: 758px;
-  margin-top: -200px;
+	width: 758px;
+	margin-top: -200px;
 }
 #section6Body div.le{
   margin-left: -20%;
